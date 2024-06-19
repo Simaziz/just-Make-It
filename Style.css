@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.all-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(200, 82, 82);
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  background-image: url(flower1.jpg);
+}
+.in {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+button {
+  background-color: yellow;
+  border-radius: 15px;
+  height: 50px;
+  width: 110px;
+  border: white solid 2px;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100px;
+  border-radius: 10px;
+  border: solid white 2px;
+}
+.all-in2{
+    background-image: url(flower1.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    border-radius: 10px;
+    width: 300px;
+}
+/* .img2 {
+height: auto;
+max-width: 100%;
+} */
